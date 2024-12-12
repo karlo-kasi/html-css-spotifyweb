@@ -4,4 +4,8 @@
         flex-basis: calc( 100% / 6 - 60px);
     }
 
+    .album-compilation__column {
+        flex-basis: calc( 100% / 6 - 10px);
+    }
+
 }

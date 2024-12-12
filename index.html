@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- sezione link  -->
-    <link rel="stylesheet" href="./css/debug.css">
+    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- media query -->
-     <link rel="stylesheet" href="./css/media-query.css">
+    <link rel="stylesheet" href="./css/media-query-s.css">
+    <link rel="stylesheet" href="./css/media-query-md.css">
 
 </head>
 <body>
@@ -26,11 +27,11 @@
          
         <div class="aside">
             <div class="aside__nav-logo-menu">
-                <div>
-                    <img class="logo" src="./img/logo.svg" alt="">
+                <div class="logo-big">
+                    <img src="./img/logo.svg" alt="">
                 </div>
                 <div>
-                    <img src="./img/logo-small.svg" alt="">
+                    <img class="logo" src="./img/logo-small.svg" alt="">
                     <span>Spotify</span>
                 </div>
                 <div>
@@ -45,14 +46,23 @@
                     <i class="fa-solid fa-book"></i>
                     <span>Libreria</span>
                 </div>
-                <div class="aside__nav-playlist">
-                    <span>Playlist</span>
-                    <div>
-                        <span>+</span>
-                        <span></span>
-                    </div>
-                    
-
+                <div id="aside__nav-playlist">
+                    <div class="playlist"> 
+                        <h4>Playlist</h4>
+                        <div class="playlist__icon">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Crea Playlist<span>
+                        </div>
+                        <ul>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                            <li>Nuova Playlist</li>
+                        </ul>             
+                    </div> 
                 </div>
                 
                 
@@ -61,13 +71,17 @@
             <div class="aside__nav-login">
 
                 <div>
-                    <i class="fa-regular fa-circle-down"></i>
-                    <span>Istalla App</span>
+                    <img class="icon-dowload" src="./img/download.svg" alt="">
+                    <span>
+                        Istalla App
+                    </span>
                 </div>
                 <hr>
                 <div>
-                    <i class="fa-solid fa-user"></i>
-                    <span>Karlo Kasi</span>  
+                    <img class="icon-profile" src="./img/profile.svg" alt="">
+                    <span>
+                        Karlo Kasi
+                    </span>  
                 </div>
                 
             </div>

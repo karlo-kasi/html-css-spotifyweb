@@ -4,21 +4,17 @@
     --main: #141923;
     --hover: #ADFF2F;
     --text-color: #D2D2D2;
-    --color-layout-cta: rgba(8, 11, 18, 0.7);
+    --color-layout-cta: rgba(8, 11, 18, 0.5);
 
 
 }
 
 span {
-    color: white;
     display: none;
 }
 
-img {
-  width: 100%;
-    
-}
 
+/* Set up pagina iniziale */
 .container {
     display: flex;
     height: 90vh;
@@ -27,6 +23,8 @@ img {
 .play-music {
     height: 10vh;
 }
+
+
 
 .aside {
     flex-basis: 10%;
@@ -51,18 +49,78 @@ img {
     
 }
 
+.aside__nav-login {
+    padding: 2px;
+}
+
+.aside__nav-login > div {
+    display: flex;
+    gap: 10px;
+}
+
+.side__nav-login {
+    display: flex;
+}
+
+.logo {
+    width: 1.6rem;
+} 
+
+.icon-dowload {
+    width: 1rem;
+}
+
+.icon-profile {
+    width: 1.5rem;
+}
+
+
+
 .aside__nav-login hr {
     display: none;
 }
 
-.aside__nav-logo-menu div:first-child {
+
+
+.logo-big {
     display: none;
+    width: 10rem;
 }
 
 .aside__nav-playlist {
     display: none;
+    
 }
 
+h2 {
+    display: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.playlist {
+    display: none;
+}
+
+.fa-plus {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #A3A3A3;
+    color: black;
+    font-weight: bold;
+}
+
+.playlist span{
+    align-self: center;
+    margin-left: 5px;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    line-height: 20px;
+}
 
 /* Inizia la parte di Main */
 .main {
@@ -80,7 +138,7 @@ img {
    z-index: 1;
    background-color: var(--color-layout-cta);
    color: white; 
-   font-size: 0.8rem;
+   font-size: 0.6rem;
 }
 
 .btn {
@@ -90,6 +148,6 @@ img {
 .btn--pill{
     padding: 10px 20px;
     border-radius: 20px;
-    font
+    color: white;
 }
 

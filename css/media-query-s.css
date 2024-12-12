@@ -4,9 +4,10 @@
         display: inline-block;
     }
 
-    .aside__nav-logo-menu div:first-child {
+
+    .logo-big {
         display: block;
-        
+        width: 10rem;
     }
 
     .aside__nav-logo-menu div:nth-of-type(2) {
@@ -18,12 +19,22 @@
         align-items:flex-start;
         gap: 10px;
     }
-
-    .aside__nav-login > div {
+    
+    #aside__nav-playlist {
+        display: block;
+    }
+    
+    .playlist {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         gap: 10px;
     }
+
+    ul {
+        display: block;
+        line-height: 30px;
+    }
+    
 
     .aside > div {
         align-items: flex-start;
@@ -38,9 +49,11 @@
     .main {
         flex-basis: 70%;
         
-    
-        background: var(--main);
     }
+
+    .main__cta { 
+        font-size: 0.8rem;
+     }
 
     
 }

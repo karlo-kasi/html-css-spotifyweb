@@ -7,20 +7,77 @@
 
 }
 
+span {
+    color: white;
+    display: none;
+}
+
+img {
+  width: 100%;
+    
+}
+
+.aside__nav-logo-menu div:first-child {
+    display: none;
+}
+
 .container {
     display: flex;
 }
 
 .aside {
-    flex-basis: 20%;
-    height: 200px;
+    flex-basis: 10%;
+    height: 700px;
+    padding: 5px;
     
-    background-color: var(--aside);
+    background: var(--aside);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}    
+
+.aside > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
+
+.aside__nav-logo-menu img {
+    width: 2rem; 
+ }
+
+ .aside__nav-login img {
+    width: 2rem;
+ }
 
 .main {
-    flex-basis: 80%;
-    height: 400px;
+    flex-basis: 90%;
+    height: 700px;
+    overflow-y: scroll;
 
-    background-color: var(--main);
+    background: var(--main);
 }
+
+.main__cta {
+   padding: 20px;
+   text-align: right;
+   text-transform: uppercase;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+   background-color: rgba(0, 0, 0);
+   color: white; 
+   font-size: 0.3rem;
+}
+
+.btn {
+    border: 1px solid white;
+}
+
+.btn--pill{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+

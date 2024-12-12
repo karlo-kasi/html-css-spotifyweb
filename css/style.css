@@ -23,11 +23,15 @@ img {
 
 .container {
     display: flex;
+    height: 90vh;
+}
+
+.play-music {
+    height: 10vh;
 }
 
 .aside {
     flex-basis: 10%;
-    height: 700px;
     padding: 5px;
     
     background: var(--aside);
@@ -54,7 +58,6 @@ img {
 
 .main {
     flex-basis: 90%;
-    height: 700px;
     overflow-y: scroll;
 
     background: var(--main);

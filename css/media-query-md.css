@@ -1,4 +1,8 @@
 @media screen and ( min-width: 768px ){
 
+    .main__voci-menu div {
+        flex-basis: calc( 100% / 5 - 15px);
+    }
+
 }
 

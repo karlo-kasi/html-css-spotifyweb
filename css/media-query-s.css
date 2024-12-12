@@ -55,5 +55,7 @@
         font-size: 0.8rem;
      }
 
-    
+    .main__voci-menu div {
+        flex-basis: calc( 100% / 3 - 20px);
+    }
 }

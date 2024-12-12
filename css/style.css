@@ -3,6 +3,8 @@
     --aside: #000000;
     --main: #141923;
     --hover: #ADFF2F;
+    --text-color: #D2D2D2;
+    --color-layout-cta: rgba(8, 11, 18, 0.7);
 
 
 }
@@ -15,10 +17,6 @@ span {
 img {
   width: 100%;
     
-}
-
-.aside__nav-logo-menu div:first-child {
-    display: none;
 }
 
 .container {
@@ -35,31 +33,41 @@ img {
     padding: 5px;
     
     background: var(--aside);
+    color: var(--text-color);
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    
 }    
 
 .aside > div {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.aside__nav-logo-menu img {
-    width: 2rem; 
- }
+.aside__nav-login hr {
+    display: none;
+}
 
- .aside__nav-login img {
-    width: 2rem;
- }
+.aside__nav-logo-menu div:first-child {
+    display: none;
+}
 
+.aside__nav-playlist {
+    display: none;
+}
+
+
+/* Inizia la parte di Main */
 .main {
     flex-basis: 90%;
-    overflow-y: scroll;
-
+    overflow-y: auto;
     background: var(--main);
 }
 
@@ -70,9 +78,9 @@ img {
    position: sticky;
    top: 0;
    z-index: 1;
-   background-color: rgba(0, 0, 0);
+   background-color: var(--color-layout-cta);
    color: white; 
-   font-size: 0.3rem;
+   font-size: 0.8rem;
 }
 
 .btn {
@@ -82,5 +90,6 @@ img {
 .btn--pill{
     padding: 10px 20px;
     border-radius: 20px;
+    font
 }
 

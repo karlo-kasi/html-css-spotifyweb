@@ -58,4 +58,8 @@
     .main__voci-menu div {
         flex-basis: calc( 100% / 3 - 20px);
     }
+
+    .volume {
+        display: block;
+    }
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- sezione link  -->
-    <link rel="stylesheet" href="./css/debug.css">
+    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -197,15 +197,15 @@
         
     </div>
     <div class="play-music">
-        <div>
-            <div>
+        <div class="play-music-flex">
+            <div class="container1-music">
                 <div class="music-img">
-                    <img src="./img/sinister.jpeg" alt="">
+                    <img width="50px" src="./img/sinister.jpeg" alt="">
                 </div>
                 <div class="music-name">
-                    <span>Sinister</span> 
-                    <span>Brano</span>
-                    <span>Nome</span>
+                    <span><strong>Sinister</strong></span> 
+                    <span class="grey">Brano</span>
+                    <span class="grey">Nome</span>
                 </div>
                 <div class="music-icon">
                     <i class="fa-regular fa-heart"></i>
@@ -213,16 +213,22 @@
                 </div>
             </div>
             <div>
-                <i class="fa-solid fa-play"></i>
-                <i class="fa-solid fa-forward-step"></i>
                 <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play"></i>
+               
+                
                 <i class="fa-solid fa-shuffle"></i>
                 <i class="fa-solid fa-arrow-rotate-right"></i>
                 
-               
+                <div class="progress-container">
+                    <span class="current-time">0:00</span>
+                    <input type="range" min="0" max="100" value="20" class="progress-bar">
+                    <span class="total-duration">3:45</span> 
+                    <script src="./js/script.js"></script>
+                </div>
                 
             </div>
-            <div>
+            <div class="volume">
                 <i class="fa-solid fa-list"></i>
                 <i class="fa-solid fa-display"></i>
                 <i class="fa-solid fa-volume-high"></i>

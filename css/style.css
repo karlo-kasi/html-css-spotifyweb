@@ -5,6 +5,7 @@
     --hover: #ADFF2F;
     --text-color: #D2D2D2;
     --color-layout-cta: rgba(8, 11, 18, 0.5);
+    --play-music: #282828;
 
 
 }
@@ -210,4 +211,16 @@ ul {
 
 .album-compilation__column img {
     width: 100%;
+}
+
+.circle {
+    border-radius: 100%;
+    aspect-ratio: 1;
+}
+
+
+/* Inizia la traccia audio  */
+
+.play-music {
+    background-color: var(--play-music);
 }

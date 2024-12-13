@@ -8,5 +8,9 @@
         flex-basis: calc( 100% / 4 - 10px);
     }
 
+    .volume {
+        display: block;
+    }
+
 }
 

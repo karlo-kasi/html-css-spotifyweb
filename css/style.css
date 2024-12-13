@@ -279,7 +279,7 @@ ul {
     cursor: pointer;
     transition: #C1C1C1 0.3s ease;
    
-    background: linear-gradient(to right, #C1C1C1 50%, #5A5A5A 50%);
+    background: linear-gradient(to right, #C1C1C1 20%, #5A5A5A 70%);
     
 }
 
@@ -292,8 +292,40 @@ ul {
     border-radius: 50%;
     cursor: pointer;
 }
-
 /* Fine barra durata canzone */
+
+
+.container2-music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.container2-music__bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.container2-music__bottom-play {
+    font-size: 1.8rem;
+    /* border: 1px solid white;
+    border-radius: 100%;
+    aspect-ratio: 1; */
+}
+
+.container2-music__bottom-ward {
+    font-size: 1.2rem;
+}
+
+.container2-music__bottom-shuffle {
+    font-size: 0.8rem;
+}
 
 
 

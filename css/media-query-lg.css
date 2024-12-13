@@ -7,9 +7,13 @@
     .album-compilation__column {
         flex-basis: calc( 100% / 6 - 10px);
     }
+    
+    .volume-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .volume {
-        display: block;
+
     }
 
 }

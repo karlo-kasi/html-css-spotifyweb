@@ -90,6 +90,7 @@
 .logo-big {
     display: none;
     width: 10rem;
+    margin-top: 5px;
 }
 
 .aside__nav-playlist {
@@ -231,6 +232,7 @@ ul {
 .play-music-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 
 }
